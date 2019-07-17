@@ -1,0 +1,21 @@
+{
+  "name": "prototype-materialdesignicons-webfont-builder",
+  "version": "1.0.0",
+  "description": "A prototype webfont builder for Material Design Icons.",
+  "author": "Michael Irigoyen <goyney@gmail.com>",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node lib/index.js"
+  },
+  "dependencies": {
+    "@mdi/svg": "*"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "eslint": "^6.0.1",
+    "eslint-plugin-wyze": "^3.4.0",
+    "tmp": "^0.1.0",
+    "webfont": "^9.0.0"
+  }
+}
